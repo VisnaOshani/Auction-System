@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+body {
+	background-color: black;
+	font-size : 12px;
+	font-family :airal;
+	margin: 0px;
+}
+
+div.products {
+	width: 1000px;
+	display: table;
+	margin: auto;
+}
+
+div.products h3 {
+	float : left;
+	color: black;
+	background : #d3654c url(../images/logo.png) no-repeat;
+	margin: 0px; 
+	line-height: 41px;
+	text-indent: 40px;
+	font-weight: normal;
+	font-size: 22px;
+	padding-right: 20px;
+}
+div.products ul,
+div.products ul li {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+div.products ul {
+	width: 100%;
+	margin-top: 20px;
+}
+
+div.products ul li {
+	width : 25%;
+}
